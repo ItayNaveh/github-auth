@@ -5,7 +5,9 @@
   "private": true,
   "type": "module",
   "main": "node/server.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node node/server.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
