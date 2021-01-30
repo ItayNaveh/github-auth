@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "type": "module",
-  "main": "server.js",
+  "main": "node/server.js",
   "scripts": {},
   "author": "",
   "license": "ISC",
