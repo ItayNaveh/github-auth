@@ -37,7 +37,7 @@ app.get("/auth", async(req, res) => {
 		<h1>Signing In...</h1>
 		<script>
 			if (window.opener) {
-				window.opener.postMessage({ user: ${JSON.stringify(userData)} }, "http://localhost:3000"); //TODO: change the domain
+				window.opener.postMessage({ user: ${JSON.stringify(userData)} }, "https://github-auth-from-scratch.herokuapp.com/"); //"http://localhost:3000"); //TODO: change the domain
 			}
 			window.close();
 		</script>
