@@ -8,7 +8,7 @@ import fetch from "node-fetch";
 const PORT = process.env.PORT ?? 3000;
 const app = express();
 
-app.use(express.static("node/public"));
+app.use(express.static("public"));
 
 
 app.get("/auth", async(req, res) => {

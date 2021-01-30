@@ -4,9 +4,9 @@
   "description": "",
   "private": true,
   "type": "module",
-  "main": "node/server.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node node/server.js"
+    "start": "node src/server.js"
   },
   "author": "",
   "license": "ISC",
