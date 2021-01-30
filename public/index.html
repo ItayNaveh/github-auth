@@ -10,7 +10,7 @@
 	<script>
 		signin.addEventListener("click", async() => {
 			window.addEventListener("message", async(e) => {
-				if (e.origin != "https://github-auth-from-scratch.herokuapp.com/") { // "http://localhost:3000") { //TODO: change domain
+				if (e.origin != "https://github-auth-from-scratch.herokuapp.com") { // "http://localhost:3000") { //TODO: change domain
 					console.log("invalid origin", e.origin);
 				} else {
 					data.innerText = JSON.stringify(e.data);
