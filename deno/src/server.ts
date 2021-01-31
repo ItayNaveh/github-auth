@@ -42,7 +42,7 @@ router.get("/auth", async(ctx) => {
 			<h1>Signing In...</h1>
 			<script>
 				if (window.opener) {
-					window.opener.postMessage({ user: ${JSON.stringify(userData)} }, "http://localhost:3000");
+					window.opener.postMessage({ user: ${JSON.stringify(userData)} }, "https://github-auth-from-scratch.herokuapp.com"); // "http://localhost:3000");
 				}
 				window.close();
 			</script>
