@@ -15,7 +15,8 @@ createApp({
 					signedIn.value = true;
 				}
 			}, { once: true });
-			window.open("https://github.com/login/oauth/authorize?client_id=089eb473578a8e68344e");
+			// window.open("https://github.com/login/oauth/authorize?client_id=089eb473578a8e68344e");
+			window.open("https://github.com/login/oauth/authorize?client_id=4af3cbf4c45b42fd64e9");
 		};
 
 		return {
