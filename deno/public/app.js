@@ -10,7 +10,6 @@ createApp({
 				if (e.origin != "https://github-auth-from-scratch.herokuapp.com") { // "http://localhost:3000") {
 					console.log("invalid origin", e.origin);
 				} else {
-					console.log("dooooooo");
 					userData.value = e.data;
 					signedIn.value = true;
 				}
