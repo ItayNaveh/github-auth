@@ -7,7 +7,7 @@ createApp({
 
 		const signIn = async() => {
 			window.addEventListener("message", async(e) => {
-				if (e.origin != "http://localhost:3000") {
+				if (e.origin != "https://github-auth-from-scratch.herokuapp.com") { // "http://localhost:3000") {
 					console.log("invalid origin", e.origin);
 				} else {
 					console.log("dooooooo");
